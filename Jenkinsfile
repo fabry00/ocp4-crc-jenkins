@@ -1,13 +1,11 @@
 pipeline {
-    agent {
-        kubernetes {
-            
-        }
-    }
+    agent any
     stages {
         stage('Build') { 
-            steps {
-                sh 'npm install' 
+            container('nodejs') {
+                steps {
+                    sh 'npm install' 
+                }
             }
         }
     }
