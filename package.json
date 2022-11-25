@@ -1,0 +1,20 @@
+{
+  "name": "ocp4-crc-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabry00/ocp4-crc-jenkins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabry00/ocp4-crc-jenkins/issues"
+  },
+  "homepage": "https://github.com/fabry00/ocp4-crc-jenkins#readme"
+}
